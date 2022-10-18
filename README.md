@@ -23,5 +23,3 @@ EXPOSE - pokazuje na jakich portach powinno ustawić się publish
 
 `docker run …` - wchodzi w attached mode I nasłuchuje outputu stdout
 `docker run -d` - detached
-
-![image](https://user-images.githubusercontent.com/10000207/196429713-1e1648df-92b3-4e99-8594-66c184d8ddb9.png)

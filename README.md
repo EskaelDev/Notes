@@ -2,6 +2,7 @@
 
 Wszystkie komendy są odpalane przy budowaniu obrazu (docker build).\
 Kontenery bazujące na tym samym obrazie nie zmieniają sobie plików.\
+Każda komenda to kolejna warstwa\
 ## Dockerfile
 ### `WORKDIR`
 wszystkie koemndy odpalane będą tutaj
@@ -21,8 +22,19 @@ CMD ["python", "program.py"]
 pokazuje na jakich portach powinno ustawić się publish
 
 ## docker CLI
-### `RUN`
+### `run`
 `docker run -p 80:80 -d -rm` \
 -rm - kontener zostanie usunięty po tym jak zostanie zatrzymany \
 `docker run …` - wchodzi w attached mode I nasłuchuje outputu stdout\
 `docker run -d` - detached
+
+### `inspect`
+- id
+- created date
+- konfig 
+-   porty
+-   env
+- entrypoint (CMD)
+- wersja
+- system
+- layers

@@ -52,3 +52,6 @@ lista obrazów
 ### `ps`
 lista uruchomionych kontenerów
 `ps -a`lista wszystkich kontenerów
+
+### `name`
+`docker run -name wlasna_nazwa`

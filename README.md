@@ -32,8 +32,8 @@ pokazuje na jakich portach powinno ustawić się publish
 - id
 - created date
 - konfig 
--   porty
--   env
+  - porty
+  - env
 - entrypoint (CMD)
 - wersja
 - system

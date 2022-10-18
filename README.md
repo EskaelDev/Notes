@@ -46,7 +46,7 @@ uruchamia zatrzymane kontenery
 `docker cp dir/. container_name:/path`
 `docker cp container_name:/path dir/.`
 
-### `image`
+### `images`
 lista obrazów
 
 ### `ps`

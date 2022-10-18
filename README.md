@@ -43,7 +43,7 @@ uruchamia zatrzymane kontenery
 - layers
 
 ### `cp`
-`docker cp dir/. container_name:/path`
+`docker cp dir/. container_name:/path`\
 `docker cp container_name:/path dir/.`
 
 ### `images`

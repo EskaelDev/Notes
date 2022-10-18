@@ -1,1 +1,27 @@
-# Notes
+# Docker
+
+Wszystkie komendy są odpalane przy budowaniu obrazu (docker build)
+
+`WORKDIR`  - wszystkie koemndy odpalane będą tutaj
+
+`COPY . /app` - mimo że wcześniej jest WORKDIR to można dodac tutaj /app tak żeby było jasne gdzie to jest kopiowane, można dać też COPY . .
+
+`CMD` - odpalane nie przy tworzeniu obrazy a przy instancjonowaniu kontenera
+```dockerfile
+CMD ["program", "argumenty"]
+CMD ["node", "server.js"]
+CMD ["python", "program.py"]
+```
+
+EXPOSE - pokazuje na jakich portach powinno ustawić się publish
+
+
+
+`docker run -p 80:80 -d -rm`
+-rm - kontener zostanie usunięty po tym jak zostanie zatrzymany
+
+
+`docker run …` - wchodzi w attached mode I nasłuchuje outputu stdout
+`docker run -d` - detached
+
+![image](https://user-images.githubusercontent.com/10000207/196429713-1e1648df-92b3-4e99-8594-66c184d8ddb9.png)

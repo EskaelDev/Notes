@@ -1,7 +1,7 @@
 # Docker
 
 Wszystkie komendy są odpalane przy budowaniu obrazu (docker build)
-
+## Dockerfile
 ### `WORKDIR`
 wszystkie koemndy odpalane będą tutaj
 
@@ -19,6 +19,7 @@ CMD ["python", "program.py"]
 ### `EXPOSE`
 pokazuje na jakich portach powinno ustawić się publish
 
+## docker CLI
 ### `RUN`
 `docker run -p 80:80 -d -rm`
 

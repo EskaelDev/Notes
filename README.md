@@ -22,6 +22,9 @@ CMD ["python", "program.py"]
 pokazuje na jakich portach powinno ustawić się publish
 
 ## docker CLI
+### `start`
+uruchamia zatrzymane kontenery
+
 ### `run`
 `docker run -p 80:80 -d -rm` \
 -rm - kontener zostanie usunięty po tym jak zostanie zatrzymany \

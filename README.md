@@ -21,6 +21,9 @@ pokazuje na jakich portach powinno ustawić się publish
 
 ### `RUN`
 `docker run -p 80:80 -d -rm`
+
 -rm - kontener zostanie usunięty po tym jak zostanie zatrzymany
+
 `docker run …` - wchodzi w attached mode I nasłuchuje outputu stdout
+
 `docker run -d` - detached

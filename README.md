@@ -1,6 +1,7 @@
 # Docker
 
-Wszystkie komendy są odpalane przy budowaniu obrazu (docker build)
+Wszystkie komendy są odpalane przy budowaniu obrazu (docker build).\
+Kontenery bazujące na tym samym obrazie nie zmieniają sobie plików.\
 ## Dockerfile
 ### `WORKDIR`
 wszystkie koemndy odpalane będą tutaj
@@ -21,10 +22,7 @@ pokazuje na jakich portach powinno ustawić się publish
 
 ## docker CLI
 ### `RUN`
-`docker run -p 80:80 -d -rm`
-
--rm - kontener zostanie usunięty po tym jak zostanie zatrzymany
-
-`docker run …` - wchodzi w attached mode I nasłuchuje outputu stdout
-
+`docker run -p 80:80 -d -rm` \
+-rm - kontener zostanie usunięty po tym jak zostanie zatrzymany \
+`docker run …` - wchodzi w attached mode I nasłuchuje outputu stdout\
 `docker run -d` - detached

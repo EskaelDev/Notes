@@ -38,3 +38,7 @@ pokazuje na jakich portach powinno ustawić się publish
 - wersja
 - system
 - layers
+
+### `cp`
+`docker cp dir/. container_name:/path`
+`docker cp container_name:/path dir/.`

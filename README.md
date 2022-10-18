@@ -45,3 +45,10 @@ uruchamia zatrzymane kontenery
 ### `cp`
 `docker cp dir/. container_name:/path`
 `docker cp container_name:/path dir/.`
+
+### `image`
+lista obrazów
+
+### `ps`
+lista uruchomionych kontenerów
+`ps -a`lista wszystkich kontenerów

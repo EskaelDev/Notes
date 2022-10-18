@@ -55,3 +55,10 @@ lista uruchomionych kontenerów
 
 ### `name`
 `docker run -name wlasna_nazwa`
+
+### `tag`
+name:tag - name to nazwa dla grupy obrazów, tag to konkretny obraz\
+`node:14`\
+`kafka:10`\
+używane w `FROM`
+`docker build -t app:latest .`
